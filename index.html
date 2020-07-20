@@ -6,6 +6,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+
     <!-- Font awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
         integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous" />
@@ -16,7 +20,7 @@
         rel="stylesheet" />
 
 
-    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="./styles/index.css" />
 
     <title>World-Summit-AI</title>
 </head>
@@ -24,43 +28,87 @@
 <body>
     <main>
         <section class="hero-section">
-            <div class="fullscreen-video-wrap">
-
-            </div>
-            <div class="overlay">
-                <div class="mobile-nav">
-                    <i class="fas fa-bars"></i>
-                </div>
-                <div class="index-wrapper">
-                    <div class="top-text orange">
-                        <h3>WORLD SUMMIT AI @ INSPIRED AI</h3>
-                        <h1>
-                            The World's leading AI Summit
-                        </h1>
-                    </div>
-                    <div class="middle-text">
-                        <p>A brand new online formatand theme #withoutborders for 2020</p>
-                        <p>Part of the inspired AI Event Series</p>
-                    </div>
-                    <div class="bottom-text">
-                        <h5>14th-16th October 2020</h5>
-                        <p>iNSPIRED Ai</p>
-                    </div>
-                    <div>
-                        <p>
-                            The world’s leading and largest AI summit gathers the global AI ecosystem of Enterprise,
-                            BigTech, Startups, Investors
-                            and Science, the brightest brains in AI as speakers every October in Amsterdam to tackle
-                            head-on the most burning AI
-                            issues and set the global AI agenda.
+            
+            <div id="videoDiv">
+                <div id="videoBlock">
+                    <video id="video" preload autoplay muted playsinline loop>
+                        <source src="https://cdn2.hubspot.net/hubfs/4149027/WSAI2018%20-%20AfterMovie.webm" type="video/webm">
+                        </source>
+                        <source src="https://cdn2.hubspot.net/hubfs/4149027/WSAI2018%20-%20AfterMovie.mp4" type="video/mp4">
+                        </source>
+                    </video>
+                    <div id="videoMessage">
+                        <i class="fas fa-bars"></i>
+                        <h1 class="spacer">World-Summit-AI 2020</h1>
+                        <h3 class="spacer">A brand new online format and theme #withoutborders for 2020</h3>
+                        <h3 class="spacer">Part of the inspired AI Event Series (Nov 1-3, 2020)</h3>
+                        <h1 class="spacer">iNSPIRED Ai</h1>
+                        <h3 class="spacer">The world’s leading and largest AI summit gathers the global AI ecosystem of Enterprise, BigTech, Startups, Investors
+                        and Science, the brightest brains in AI as speaker AI agenda.</h3>
+                        <p class="videoClick">
+                            <a href="">REGISTER</a>
                         </p>
-                        <button>
-
-                        </button>
                     </div>
                 </div>
             </div>
         </section>
+        
+        
+    <!-- Main program -->
+    <section class="main-program" id="program">
+        <h2 class="main-head feature grey">Main Program</h2>
+        <div class="main-event">
+            <div class="box box1">
+                <div class="box-icon">
+                    <i class="fab fa-react"></i>
+                </div>
+                <div class="box-title orange">LEARN ABOUT AI</div>
+                <div class="box-text grey">
+                Learn from the brightest and most influential people smashing through the boundaries of possibility in AI, including all
+                the big tech giants Google, Amazon, IBM and Apple
+                </div>
+            </div>
+    
+            <div class="box box2">
+                <div class="box-icon"> <i class="fas fa-file-powerpoint"></i> </div>
+                <div class="box-title orange">Lectures</div>
+                <div class="box-text grey">Join our hands-on workshops and do everything from starting your own AI experiment to deploying machine learning models
+                to gain insight from data</div>
+            </div>
+    
+            <div class="box box3">
+                <div class="box-icon">
+                    <i class="fas fa-comments"></i>
+                </div>
+                <div class="box-title orange">Q&A</div>
+                <div class="box-text grey">Join our hands-on workshops and do everything from starting your own AI experiment to deploying machine learning models
+                to gain insight from data
+                </div>
+            </div>
+    
+            <div class="box box4">
+                <div class="box-icon">
+                    <i class="fas fa-cloud"></i>
+                </div>
+                <div class="box-title orange">Cloud</div>
+                <div class="box-text grey">Join our hands-on workshops and do everything from starting your own AI experiment to deploying machine learning models
+                to gain insight from data
+                </div>
+            </div>
+            <div class="box box5">
+                <div class="box-icon">
+                    <i class="far fa-object-ungroup"></i>
+                </div>
+                <div class="box-title orange">System Design</div>
+                <div class="box-text grey">Join our hands-on workshops and do everything from starting your own AI experiment to deploying machine learning models
+                to gain insight from data
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
     </main>
 
 </body>
