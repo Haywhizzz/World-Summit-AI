@@ -83,10 +83,67 @@
     cursor:hand
 }
 
-.main-program {
+.main-program-container {
+    background: #272a31;
+    background-size: cover;
+    background-position: center;
     padding: 2rem;
 }
 
-.hero-section {
+.main-title {
+    display: flex;
+    flex-direction: column;
+    color: #d3d3d3;
+    width: 100%;
+}
 
+.program {
+    background: #d3d3d3;
+    color: #272a31;
+    display: flex;
+    transition: ease 0.2s;
+    cursor: pointer;
+}
+
+.program-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+
+.program-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    line-height: 0.5;
+}
+
+.program-title h2 {
+    color: #ec5242;
+    font-size: 0.9rem;
+    width: 100%;
+}
+
+.program-text {
+    width: 50%;
+    font-size: 0.8rem;
+}
+
+.more {
+    text-decoration: underline;
+    color: #d3d3d3;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+.box {
+    flex-direction: row;
+    padding: 0 1rem;
+    margin: 1rem 0;
+}
 }
