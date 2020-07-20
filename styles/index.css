@@ -168,10 +168,50 @@
     font-family: "Nanum Gothic", sans-serif;
 }
 
+.bg-dark {
+    background: #272a31;
+}
+
+.main-head {
+    font-size: 1.8rem;
+    text-align: center;
+    padding-bottom: 0.5rem;
+    margin: 0 auto;
+    position: relative;
+    cursor: pointer;
+}
+
+.grey {
+    color: #d3d3d3;
+}
+
+.partner-icon {
+    padding: 2rem 2rem;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr;
+    grid-gap: 9px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.main-logo {
+    height: 100%;
+}
+
 @media only screen and (max-width: 768px) {
 .box {
     flex-direction: row;
     padding: 0 1rem;
     margin: 1rem 0;
+}
+
+.feature {
+    width: 70%;
+    font-size: 1.5rem;
+}
+
+.partner-icon {
+    padding: 1rem;
 }
 }
