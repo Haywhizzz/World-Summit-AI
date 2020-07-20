@@ -1,3 +1,12 @@
+.hero {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ec5242;
+    height: calc(100vh - 5.5rem);
+    overflow-x: hidden;
+}
 
 
 #myVideo {
@@ -90,6 +99,18 @@
     padding: 2rem;
 }
 
+.social-nav {
+  background: #272a31;
+  height: 2rem;
+}
+
+.social-nav .nav-link {
+  color: #fff;
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: 1.2rem;
+  padding: 0 0.7rem;
+}
+
 .main-title {
     display: flex;
     flex-direction: column;
@@ -126,9 +147,11 @@
     width: 100%;
 }
 
-.program-text {
+.program-text a {
     width: 50%;
     font-size: 0.8rem;
+    text-decoration: none;
+    color: #272a31;
 }
 
 .more {
@@ -196,8 +219,12 @@
 }
 
 .main-logo {
-    height: 100%;
+    padding: 0;
+    max-height: 30px;
 }
+
+
+
 
 @media only screen and (max-width: 768px) {
 .box {
@@ -213,5 +240,15 @@
 
 .partner-icon {
     padding: 1rem;
+}
+}
+
+@media only screen and (min-width: 768px) {
+ body .main-program-container .main-program {
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 0.5rem;
 }
 }
