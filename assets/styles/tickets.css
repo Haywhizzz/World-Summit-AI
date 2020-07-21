@@ -78,11 +78,39 @@ button {
     flex-direction: column;
 }
 
+.card-header p {
+    color: #ec5242;
+    font-weight: 600;
+}
+
+.schedule-wrapper {
+    flex-direction: column;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.join-link {
+    box-shadow: 5px 5px 5px grey;
+    background: #ec5242;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    color: #d3d3d3;
+    font-size: 1.2rem;
+}
+
 .tickets-title {
     display: flex;
     flex-direction: column;
     color: #272a31;
     width: 100%;
+}
+
+.tickets-main-wrapper {
+  display: flex;
+  flex-direction: column;
+  color: #272a31;
+  width: 100%;
+}
 }
 
 table thead th {
