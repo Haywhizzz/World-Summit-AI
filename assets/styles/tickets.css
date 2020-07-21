@@ -68,6 +68,16 @@ button {
     margin: 0 auto;
 }
 
+* {
+  box-sizing: border-box;
+}
+
+.meal-wrapper {
+    max-width: 1100px;
+    margin: auto;
+    flex-direction: column;
+}
+
 .tickets-title {
     display: flex;
     flex-direction: column;
