@@ -14,13 +14,54 @@
   overflow-x: hidden;
 }
 
-#myVideo {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
+.fa-bars {
+  color: #fff;
+}
+
+.venue-date {
+  color: #d3d3d3;
+}
+
+.td-none {
+  background-color: #ec5242;
+}
+
+.fullscreen-video-wrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
   overflow: hidden;
+}
+
+.hero-overlay {
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: #272a31;
+  z-index: 1;
+  opacity: 0.5;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 100% !important;
+  margin: auto;
+  z-index: 2;
+  color: #ec5242;
+}
+
+.page-main-title {
+  color: #ec5242;
+  font-size: 1.7rem;
+  font-weight: 600;
+  opacity: 0.8;
+  font-family: Cocogoose, Arial, Helvetica, sans-serif;
 }
 
 .overlay {
@@ -32,69 +73,7 @@
   padding: 20px;
 }
 
-#videoDiv {
-  width: 100%;
-  height: 300px;
-  position: relative;
-}
 
-#videoBlock {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-#videoMessage {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-#videoMessage * {
-  padding: 0.4em;
-  margin: 0;
-}
-
-#videoMessage {
-  text-shadow: 2px 2px 2px #000000;
-  color: white;
-  z-index: 99;
-}
-
-#videoMessage h1 {
-  font-size: 2em;
-  color: #ffffff;
-  text-align: center;
-  font-family: Cocogoose, Arial, Helvetica, sans-serif;
-}
-
-#videoMessage h2 {
-  font-size: 1.5em;
-  color: #ffffff;
-  text-align: center;
-}
-
-#videoMessage h3 {
-  font-size: 1.2em;
-  color: #ffffff;
-  text-align: center;
-}
-
-.videoClick {
-  text-align: center;
-}
-
-.videoClick a {
-  color: white;
-  background-color: rgba(241, 241, 241, 0.25);
-  font-size: 1.7em;
-  cursor: pointer;
-  cursor: hand;
-}
 
 .main-program-container {
   background: #272a31;
@@ -278,6 +257,11 @@
     align-items: center;
   }
 
+   body .hero .hero-content .page-main-title {
+    font-size: 4rem;
+    font-weight: 900;
+  }
+
   .program {
     display: flex;
     flex-direction: column;
@@ -287,5 +271,9 @@
     font-family: 'Lato', sans-serif;
     font-size: 1.5rem;
     padding: 1rem 0; 
-  }   
+  }
+  
+  .fa-bars {
+    display: none;
+  }
 }
