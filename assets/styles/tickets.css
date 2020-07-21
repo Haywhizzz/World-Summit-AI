@@ -20,6 +20,11 @@
   padding: 0 0.7rem;
 }
 
+.ticket-section button {
+    box-shadow: 10px 10px 9px grey;
+    font-size: 0.95rem;
+}
+
 .nav-link {
   color: #ec5242;
 }
@@ -70,6 +75,12 @@ button {
 
 * {
   box-sizing: border-box;
+}
+
+.partner-icon {
+  display: flex;
+  justify-content: space-around;
+  height: 100px;
 }
 
 .meal-wrapper {
