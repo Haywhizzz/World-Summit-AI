@@ -215,16 +215,13 @@
 
 .grey {
   color: #d3d3d3;
+  margin-top: 30px;
 }
 
 .partner-icon {
-  padding: 2rem 2rem;
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: 1fr;
-  grid-gap: 9px;
-  width: 90%;
-  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  height: 100px;
 }
 
 .main-logo {
