@@ -33,3 +33,71 @@
     max-width: 1700px;
     margin: 0 auto;
 }
+
+.tickets-body {
+    padding: 0;
+    margin: 0;
+    background-color: #d3d3d3;
+}
+
+.underline {
+    padding: 0;
+    border-top: 2px solid #ec5242;
+    width: 5rem;
+}
+
+.ticket-section {
+    max-width: 1100px;
+    margin: auto;
+    flex-direction: column;
+}
+
+button {
+    box-shadow: 10px 10px 9px grey;
+    font-size: 0.95rem;
+}
+
+.color-change {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #ec5242;
+}
+
+.container-fluid {
+    max-width: 1700px;
+    margin: 0 auto;
+}
+
+.tickets-title {
+    display: flex;
+    flex-direction: column;
+    color: #272a31;
+    width: 100%;
+}
+
+table thead th {
+    font-size: medium;
+    font-weight: 400;
+    color: #ec5242;
+}
+
+table tbody td {
+    font-size: 0.5rem;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .social-nav {
+      display: none;
+  }
+
+  .main-nav {
+      display: none;
+  }
+
+  .container-fluid {
+    max-width: 1700px;
+    margin: 0 auto;
+}
+}
