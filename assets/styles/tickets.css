@@ -116,12 +116,37 @@ button {
     width: 100%;
 }
 
+table thead th {
+    font-size: medium;
+    font-weight: 400;
+    color: #ec5242;
+}
+
+.grey {
+    color: #d3d3d3;
+    margin-top: 30px;
+}
+
+.main-head {
+    font-size: 1.8rem;
+    text-align: center;
+    padding-bottom: 0.5rem;
+    margin: 0 auto;
+    position: relative;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 430px) {
+  .tickets-body .tickets-main-wrapper .ticket-section table tbody td {
+    font-size: 0.8rem;
+  }
+}
+
 .tickets-main-wrapper {
   display: flex;
   flex-direction: column;
   color: #272a31;
   width: 100%;
-}
 }
 
 table thead th {
@@ -133,6 +158,7 @@ table thead th {
 table tbody td {
     font-size: 0.5rem;
 }
+
 
 
 
