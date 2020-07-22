@@ -3,6 +3,15 @@
   src: url("../fonts/Cocogoose/Cocogoose_trial.otf");
 }
 
+.nav-link {
+  color: #ec5242;
+}
+
+button {
+  box-shadow: 10px 10px 9px grey;
+  font-size: 0.95rem;
+}
+
 .social-nav {
   background: #272a31;
   height: 2rem;
@@ -21,56 +30,42 @@
 }
 
 .ticket-section button {
-    box-shadow: 10px 10px 9px grey;
-    font-size: 0.95rem;
-}
-
-.nav-link {
-  color: #ec5242;
+  box-shadow: 10px 10px 9px grey;
+  font-size: 0.95rem;
 }
 
 .main-logo {
-    padding: 0;
-    max-height: 30px;
+  padding: 0;
+  max-height: 30px;
 }
 
 .container-fluid {
-    max-width: 1700px;
-    margin: 0 auto;
+  max-width: 1700px;
+  margin: 0 auto;
 }
 
 .tickets-body {
-    padding: 0;
-    margin: 0;
-    background-color: #d3d3d3;
+  padding: 0;
+  margin: 0;
+  background-color: #d3d3d3;
 }
 
 .underline {
-    padding: 0;
-    border-top: 2px solid #ec5242;
-    width: 5rem;
+  padding: 0;
+  border-top: 2px solid #ec5242;
+  width: 5rem;
 }
 
 .ticket-section {
-    max-width: 1100px;
-    margin: auto;
-    flex-direction: column;
-}
-
-button {
-    box-shadow: 10px 10px 9px grey;
-    font-size: 0.95rem;
+  max-width: 1100px;
+  margin: auto;
+  flex-direction: column;
 }
 
 .color-change {
-    font-size: 1rem;
-    font-weight: 600;
-    color: #ec5242;
-}
-
-.container-fluid {
-    max-width: 1700px;
-    margin: 0 auto;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #ec5242;
 }
 
 * {
@@ -84,67 +79,61 @@ button {
 }
 
 .meal-wrapper {
-    max-width: 1100px;
-    margin: auto;
-    flex-direction: column;
+  max-width: 1100px;
+  margin: auto;
+  flex-direction: column;
 }
 
 .card-header p {
-    color: #ec5242;
-    font-weight: 600;
+  color: #ec5242;
+  font-weight: 600;
 }
 
 .schedule-wrapper {
-    flex-direction: column;
-    max-width: 1100px;
-    margin: auto;
+  flex-direction: column;
+  max-width: 1100px;
+  margin: auto;
 }
 
 .join-link {
-    box-shadow: 5px 5px 5px grey;
-    background: #ec5242;
-    border-radius: 0.5rem;
-    text-decoration: none;
-    color: #d3d3d3;
-    font-size: 1.2rem;
+  box-shadow: 5px 5px 5px grey;
+  background: #ec5242;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  color: #d3d3d3;
+  font-size: 1.2rem;
 }
 
 .tickets-title {
-    display: flex;
-    flex-direction: column;
-    color: #272a31;
-    width: 100%;
+  display: flex;
+  flex-direction: column;
+  color: #272a31;
+  width: 100%;
 }
 
 table thead th {
-    font-size: medium;
-    font-weight: 400;
-    color: #ec5242;
+  font-size: medium;
+  font-weight: 400;
+  color: #ec5242;
 }
 
 .grey {
-    color: #d3d3d3;
-    margin-top: 30px;
+  color: #d3d3d3;
+  margin-top: 30px;
 }
 
 .main-head {
-    font-size: 1.8rem;
-    text-align: center;
-    padding-bottom: 0.5rem;
-    margin: 0 auto;
-    position: relative;
-    cursor: pointer;
+  font-size: 1.8rem;
+  text-align: center;
+  padding-bottom: 0.5rem;
+  margin: 0 auto;
+  position: relative;
+  cursor: pointer;
 }
 
 .footer-container {
-    display: flex;
-    justify-content: space-around;
-}
-
-@media screen and (min-width: 430px) {
-  .tickets-body .tickets-main-wrapper .ticket-section table tbody td {
-    font-size: 0.8rem;
-  }
+  display: flex;
+  justify-content: space-around;
 }
 
 .tickets-main-wrapper {
@@ -154,30 +143,21 @@ table thead th {
   width: 100%;
 }
 
-table thead th {
-    font-size: medium;
-    font-weight: 400;
-    color: #ec5242;
-}
-
 table tbody td {
-    font-size: 0.5rem;
+  font-size: 0.5rem;
 }
-
-
-
 
 @media only screen and (max-width: 768px) {
-    .social-nav {
-      display: none;
+  .social-nav {
+    display: none;
   }
 
   .main-nav {
-      display: none;
+    display: none;
   }
 
   .container-fluid {
     max-width: 1700px;
     margin: 0 auto;
-}
+  }
 }

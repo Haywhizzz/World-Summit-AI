@@ -3,7 +3,6 @@
   src: url("../fonts/Cocogoose/Cocogoose_trial.otf");
 }
 
-
 .hero {
   position: relative;
   display: flex;
@@ -73,7 +72,9 @@
   padding: 20px;
 }
 
-
+.nav-link {
+  color: #ec5242;
+}
 
 .main-program-container {
   background: #272a31;
@@ -112,6 +113,10 @@
   display: flex;
   transition: ease 0.2s;
   cursor: pointer;
+}
+
+body .main-program-container .main-program .program:hover {
+  transform: scale(1.05);
 }
 
 .program-title {
@@ -209,13 +214,9 @@
   max-height: 30px;
 }
 
-.nav-link {
-  color: #ec5242;
-}
-
 .footer-container {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 
 @media only screen and (max-width: 768px) {
@@ -239,7 +240,7 @@
   }
 
   .main-nav {
-      display: none;
+    display: none;
   }
 }
 
@@ -251,14 +252,16 @@
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 0.5rem;
   }
+
   .program-image {
     width: 100%;
+    height: 6.7rem;
     display: flex;
     justify-content: center;
     align-items: center;
   }
 
-   body .hero .hero-content .page-main-title {
+  body .hero .hero-content .page-main-title {
     font-size: 4rem;
     font-weight: 900;
   }
@@ -271,10 +274,16 @@
   .program-title h2 {
     font-family: 'Lato', sans-serif;
     font-size: 1.5rem;
-    padding: 1rem 0; 
+    padding: 1rem 0;
+    margin-left: 120px;
   }
-  
+
   .fa-bars {
     display: none;
+  }
+
+  .guest-speakers {
+    max-width: 900px;
+    margin: 0 auto;
   }
 }
