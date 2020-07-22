@@ -136,6 +136,11 @@ table thead th {
     cursor: pointer;
 }
 
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+}
+
 @media screen and (min-width: 430px) {
   .tickets-body .tickets-main-wrapper .ticket-section table tbody td {
     font-size: 0.8rem;
