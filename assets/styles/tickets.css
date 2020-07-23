@@ -12,13 +12,17 @@ button {
   font-size: 0.95rem;
 }
 
+th {
+  color: #272a31;
+}
+
 .social-nav {
   background: #272a31;
   height: 2rem;
 }
 
 .main-nav {
-  background: #272a31;
+  background-color: #fff;
   height: 2.5rem;
 }
 
@@ -125,10 +129,6 @@ td {
   color: #ec5242;
 }
 
-th {
-  color: #272a31;
-}
-
 .grey {
   color: #d3d3d3;
   margin-top: 30px;
@@ -157,10 +157,6 @@ th {
 
 table tbody td {
   font-size: 0.9rem;
-}
-
-.main-nav {
-  background-color: #fff;
 }
 
 @media only screen and (max-width: 768px) {

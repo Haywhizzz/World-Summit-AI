@@ -89,7 +89,7 @@
 }
 
 .main-nav {
-  background: #272a31;
+  background-color: #fff;
   height: 2.5rem;
 }
 
@@ -218,10 +218,6 @@ body .main-program-container .main-program .program:hover {
   justify-content: space-between;
 }
 
-.main-nav {
-  background-color: #fff;
-}
-
 @media only screen and (max-width: 768px) {
   .box {
     flex-direction: row;
@@ -288,9 +284,4 @@ body .main-program-container .main-program .program:hover {
     max-width: 900px;
     margin: 0 auto;
   }
-}
-
-
-@media only screen and (min-width: 824px) {
-  display: : ;
 }
