@@ -1,0 +1,287 @@
+@font-face {
+  font-family: "Cocogoose";
+  src: url("../fonts/Cocogoose/Cocogoose_trial.otf");
+}
+
+.hero {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ec5242;
+  height: calc(100vh - 5.5rem);
+  overflow-x: hidden;
+}
+
+.fa-bars {
+  color: #fff;
+}
+
+.venue-date {
+  color: #d3d3d3;
+}
+
+.td-none {
+  background-color: #ec5242;
+}
+
+.fullscreen-video-wrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.hero-overlay {
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: #272a31;
+  z-index: 1;
+  opacity: 0.5;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 100% !important;
+  margin: auto;
+  z-index: 2;
+  color: #ec5242;
+}
+
+.page-main-title {
+  color: #ec5242;
+  font-size: 1.7rem;
+  font-weight: 600;
+  opacity: 0.8;
+  font-family: Cocogoose, Arial, Helvetica, sans-serif;
+}
+
+.overlay {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+.nav-link {
+  color: #ec5242;
+}
+
+.main-program-container {
+  background: #272a31;
+  background-size: cover;
+  background-position: center;
+  padding: 2rem;
+}
+
+.social-nav {
+  background: #272a31;
+  height: 2rem;
+}
+
+.main-nav {
+  background-color: #fff;
+  height: 2.5rem;
+}
+
+.social-nav .nav-link {
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.2rem;
+  padding: 0 0.7rem;
+}
+
+.main-title {
+  display: flex;
+  flex-direction: column;
+  color: #d3d3d3;
+  width: 100%;
+}
+
+.program {
+  background: #d3d3d3;
+  color: #272a31;
+  display: flex;
+  transition: ease 0.2s;
+  cursor: pointer;
+}
+
+body .main-program-container .main-program .program:hover {
+  transform: scale(1.05);
+}
+
+.program-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.program-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20%;
+  line-height: 0.5;
+}
+
+.program-title h2 {
+  color: #ec5242;
+  font-size: 0.9rem;
+  width: 100%;
+}
+
+.program-text a {
+  width: 50%;
+  font-size: 0.8rem;
+  text-decoration: none;
+  color: #272a31;
+}
+
+.more {
+  text-decoration: underline;
+  color: #d3d3d3;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.speaker {
+  display: grid;
+  grid-template-columns: 2fr 6fr;
+  grid-gap: 0.5rem;
+  margin: 1rem 0;
+  line-height: 1.2;
+  transition: ease 0.2s;
+}
+
+.speaker-img {
+  border: 2px dotted #272a31;
+  width: 100%;
+}
+
+.speaker-title {
+  color: #272a31;
+  font-size: 1.2rem;
+  font-weight: 600;
+  font-family: Cocogoose, Arial, Helvetica, sans-serif;
+}
+
+.small-text {
+  color: #ec5242;
+  font-style: oblique;
+}
+
+.speaker-description {
+  font-size: 0.85rem;
+  font-family: 'Lato', sans-serif;
+}
+
+.bg-dark {
+  background: #272a31;
+}
+
+.main-head {
+  font-size: 1.8rem;
+  text-align: center;
+  padding-bottom: 0.5rem;
+  margin: 0 auto;
+  position: relative;
+  cursor: pointer;
+}
+
+.grey {
+  color: #d3d3d3;
+  margin-top: 30px;
+}
+
+.partner-icon {
+  display: flex;
+  justify-content: space-around;
+  height: 100px;
+}
+
+.main-logo {
+  padding: 0;
+  max-height: 30px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 768px) {
+  .box {
+    flex-direction: row;
+    padding: 0 1rem;
+    margin: 1rem 0;
+  }
+
+  .feature {
+    width: 70%;
+    font-size: 1.5rem;
+  }
+
+  .partner-icon {
+    padding: 1rem;
+  }
+
+  .social-nav {
+    display: none;
+  }
+
+  .main-nav {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  body .main-program-container .main-program {
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 0.5rem;
+  }
+
+  .program-image {
+    width: 100%;
+    height: 6.7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  body .hero .hero-content .page-main-title {
+    font-size: 4rem;
+    font-weight: 900;
+  }
+
+  .program {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .program-title h2 {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5rem;
+    padding: 1rem 0;
+  }
+
+  .fa-bars {
+    display: none;
+  }
+
+  .guest-speakers {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+}
