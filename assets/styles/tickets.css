@@ -114,7 +114,19 @@ button {
 table thead th {
   font-size: medium;
   font-weight: 400;
+  color: #272a31;
+}
+
+.table {
+  background-color: white;
+}
+
+td {
   color: #ec5242;
+}
+
+th {
+  color: #272a31;
 }
 
 .grey {
@@ -133,7 +145,7 @@ table thead th {
 
 .footer-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .tickets-main-wrapper {
@@ -144,7 +156,7 @@ table thead th {
 }
 
 table tbody td {
-  font-size: 0.5rem;
+  font-size: 0.9rem;
 }
 
 @media only screen and (max-width: 768px) {

@@ -216,7 +216,7 @@ body .main-program-container .main-program .program:hover {
 
 .footer-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 @media only screen and (max-width: 768px) {
@@ -286,4 +286,9 @@ body .main-program-container .main-program .program:hover {
     max-width: 900px;
     margin: 0 auto;
   }
+}
+
+
+@media only screen and (min-width: 824px) {
+  display: : ;
 }
