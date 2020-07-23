@@ -159,6 +159,10 @@ table tbody td {
   font-size: 0.9rem;
 }
 
+.main-nav {
+  background-color: #fff;
+}
+
 @media only screen and (max-width: 768px) {
   .social-nav {
     display: none;

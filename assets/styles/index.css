@@ -219,6 +219,10 @@ body .main-program-container .main-program .program:hover {
   justify-content: space-between;
 }
 
+.main-nav {
+  background-color: #fff;
+}
+
 @media only screen and (max-width: 768px) {
   .box {
     flex-direction: row;
